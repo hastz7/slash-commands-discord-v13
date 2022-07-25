@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/loading_v2.gif">
+    <img src="https://i.pinimg.com/originals/4f/79/d1/4f79d16b5be08fbbdfd8a1978bb59075.gif">
 </p>
 
 <p align="center"> 
