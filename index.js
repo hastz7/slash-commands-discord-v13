@@ -1,4 +1,4 @@
-const { Client, Collection, Discord } = require('discord.js');
+const { Client, Collection } = require('discord.js');
 const { token } = require('./src/config/config.json');
 const http = require('http');
 
@@ -13,9 +13,8 @@ http.createServer(function(req, res) {
 
 module.exports = client;
 
-client.discord = Discord;
 client.commands = new Collection();
-client.cmdSlash = new Collection();
+client.cmd = new Collection();
 client.config = require('./src/config/config.json');
 
 require('./src/handler')(client);
